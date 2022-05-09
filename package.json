@@ -1,0 +1,16 @@
+{
+  "name": "bark-bark-sql",
+  "version": "1.0.0",
+  "description": "REST API to access Bark Bark SQL breed data",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Alvin Buana",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mysql": "^2.18.1"
+  }
+}
