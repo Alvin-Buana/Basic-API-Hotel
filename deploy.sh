@@ -2,8 +2,8 @@ GOOGLE_PROJECT_ID=red-bruin-349004
 CLOUD_RUN_SERVICE=bark-bark-test
 INSTANCE_CONNECTION_NAME=red-bruin-349004:us-central1:barkbark
 DB_USER=root
-DB_PASSWORD=barkbark3.0isheretohelpyou
-DB_NAME=Productiondatabase
+DB_PASSWORD=sorrythisisforprivateusage
+DB_NAME=Productiondatabases
 
 gcloud builds submit --tag gcr.io/${GOOGLE_PROJECT_ID}/${CLOUD_RUN_SERVICE}\
     --project ${GOOGLE_PROJECT_ID}
